@@ -36,28 +36,6 @@ header {
   }
 }
 
-@media screen and (max-width: 844px) {
-  header {
-    display: flex;
-    justify-content: space-between;
-  }
-
-  .title-container {
-    position: relative;
-    left: 0;
-  }
-
-  .search {
-    width: 150px;
-  }
-
-  .Movie { 
-    position: relative;
-    left: 20px
-  }
-}
-
-
 .search {
   background-color: transparent;
   color:white;
