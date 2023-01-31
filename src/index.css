@@ -23,16 +23,18 @@ header {
 }
 
 .title-container {
-  position: relative;
-  left: 40%;
   text-decoration: underline;
   color: rgb(205, 206, 212);
 }
 
 @media screen and (max-width: 1000px) {
-  .title-container {
-    position: relative;
-    left: 30%;
+  header {
+    width: 100%;
+    flex-direction: column;
+    height:fit-content;
+  }
+  h2, p {
+    margin: 10px;
   }
 }
 
@@ -53,6 +55,7 @@ header {
 .Movie-container {
   display:flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .Movie {
